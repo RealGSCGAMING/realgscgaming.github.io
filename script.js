@@ -2,10 +2,7 @@
 {
     let mdcButton = document.getElementById("mdcButton")
     mdcButton.addEventListener("click", function () {
-        let beta = confirm("This game is still a work in progress, would you like to check the beta version?");
-        if (beta) {
-            window.open("form2.html", "_blank")
-        }
+        window.open("https://realgscgaming.github.io/mdc", "_blank")
     })
 }
 
